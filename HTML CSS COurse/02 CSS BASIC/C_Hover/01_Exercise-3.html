@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>BASIC CSS</title>
+</head>
+<style>
+    .request-button{
+        background-color: black;
+        color: aliceblue;
+        height: 36px;
+        width: 120px;
+        border: none;
+        font-weight: 500;
+        cursor: pointer;
+        transition: opacity 0.15s;
+    }
+    .request-button:hover{
+        opacity: 0.7;
+    }
+    .cart-button{
+        background-color: rgb(255,216,20);
+        height: 30px;
+        width: 180px;
+        border-radius: 18px;
+        border: none;
+        font-weight: 540;
+        font-size: 14px;
+        cursor: pointer;
+        opacity: background-color 0.15s;
+    }
+    .cart-button:hover{
+        background-color: rgb(238, 204, 33);
+    }
+    .signup-button{
+        background-color: rgb(46,164,79);
+        color: white;
+        height: 36px;
+        width: 86px;
+        border: none;
+        border-radius: 6px;
+        font-weight:bolder;
+        font-size: 14px;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+    }
+    .signup-button:hover{
+        box-shadow: 3px 3px 10px rgba(0, 0,0,0.7) ;
+    }
+    .started-button{
+        background-color: rgb(121,82,179);
+        color: white;
+        height: 36px;
+        width: 110px;
+        border: none;
+        border-radius: 4px;
+        font-weight: bold;
+        font-size: 13px;
+        margin-right: 8px;
+        cursor: pointer;
+    }
+    .started-button:hover{
+        background-color: rgb(106, 72, 157);
+    }
+    .download-button{
+        color: rgb(108,117,125);
+        background-color: white;
+        border-width: 1px;
+        border-radius: 3px;
+        border-style: solid;
+        height: 36px;
+        width: 100px;
+        font-weight: bold;
+        font-size: 13px;
+        cursor: pointer;
+        transition: color 0.15s , background-color 0.15s;
+    }
+    .download-button:hover{
+        background-color: rgb(108,117,125);
+        color: white;
+    }
+    .save-button{
+        margin-left: 8px;
+        background-color: white;
+        border-width: 1px;
+        border-color: rgb(10,102,194);
+        color: rgb(10,102,194);
+        border-style: solid;
+        border-radius: 18px;
+        height: 36px;
+        width: 69px;
+        font-weight: bold;
+        font-size: 14px;
+        cursor: pointer;
+        transition: border-width 0.1s , background-color 0.15s;
+    }
+    .save-button:hover{
+        border-width: 2px;
+        background-color: rgb(220, 242, 252);
+    }
+    .apply-button{
+        background-color: rgb(10,102,194);
+        color: white;
+        border: none;
+        border-radius: 18px;
+        height: 36px;
+        width: 225px;
+        font-weight: bold;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    .apply-button:hover{
+        background-color: rgb(20, 93, 167);
+    }
+</style>
+<body>
+    <ul>
+        <li>
+            <button class="request-button">Request Now</button>
+        </li>
+        <br>
+        <li>
+            <button class="cart-button">Add To Cart</button>
+        </li>
+        <br>
+        <li>
+            <button class="signup-button">Sign up</button>
+        </li>
+        <br>
+        <li>
+            <button class="started-button">Get started</button>
+            <button class="download-button">Download</button>
+        </li>
+        <br>
+        <li>
+            <button class="apply-button">Apply on company website</button>
+            <button class="save-button">Save</button>
+        </li>
+    </ul>   
+</body>
+</html>
